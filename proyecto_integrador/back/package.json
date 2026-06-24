@@ -1,0 +1,20 @@
+{
+  "name": "v-healt-back",
+  "private": true,
+  "version": "1.0.0",
+  "description": "API Express — plantas, auth y chatbot",
+  "main": "src/server.cjs",
+  "scripts": {
+    "start": "node src/server.cjs",
+    "dev": "node src/server.cjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.15.3",
+    "tau-prolog": "^0.3.4"
+  }
+}

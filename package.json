@@ -1,0 +1,14 @@
+{
+  "name": "proyecto-integrador-root",
+  "private": true,
+  "description": "Redirige comandos npm al monorepo dentro de ./proyecto_integrador",
+  "scripts": {
+    "dev": "npm run dev --prefix proyecto_integrador",
+    "server": "npm run server --prefix proyecto_integrador",
+    "dev:full": "npm run dev:full --prefix proyecto_integrador",
+    "build": "npm run build --prefix proyecto_integrador",
+    "lint": "npm run lint --prefix proyecto_integrador",
+    "install:all": "npm install --prefix proyecto_integrador",
+    "setup:legacy-db": "npm run setup:legacy-db --prefix proyecto_integrador"
+  }
+}

@@ -4,12 +4,12 @@ echo  CONFIGURACION V-HEALTH MYSQL
 echo ================================
 echo.
 
-echo 🔧 Instalando dependencias MySQL...
-call npm install mysql2 bcryptjs
+echo 🔧 Instalando dependencias del monorepo...
+call npm install
 
 echo.
-echo 📁 Ejecutando script de creacion de BD...
-node setup_mysql_database.js
+echo Ejecutando script de creacion de BD (base vhealth opcional)...
+node back\scripts\setup_mysql_database.cjs
 
 echo.
 echo ✅ Proceso completado!
